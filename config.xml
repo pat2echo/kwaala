@@ -14,7 +14,7 @@
     <preference name="StatusBarBackgroundColor" value="#ee6e73" />
     <preference name="StatusBarStyle" value="blacktranslucent" />
     <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.3" />
-    <plugin name="phonegap-plugin-push" source="npm" spec="~1.6.2">
+    <plugin name="phonegap-plugin-push" source="npm" spec="1.2.3">
         <param name="SENDER_ID" value="991696709191" />
     </plugin>
     <plugin name="cordova-plugin-console" source="npm" spec="~1.0.3" />
