@@ -1,0 +1,114 @@
+/* here you can put your own css to customize and override the theme */
+#generate-report-progress-bar{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	left: 0;
+	z-index:9999999999;
+}
+
+#notification-container{
+	position: absolute;
+	top: 30px;
+	right: 10px;
+	width: 25%;
+	z-index:999999999;
+}
+.virtual-progress-bar{
+	height:4px;
+}
+.input-row{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.action-button{
+	padding:0;
+}
+
+.report-table-preview-exploration table,
+.report-table-preview table tr th,
+.report-table-preview table{
+	font-size:0.9em;
+}
+.report-table-preview-exploration table tr th,
+.report-table-preview table tr th{
+	text-align:center;
+	vertical-align:middle;
+}
+.report-table-preview table tr.total-row td,
+.report-table-preview table tr td.company,
+.report-table-preview table tr td.operator,
+.report-table-preview table tr td.fdollar-column,
+.report-table-preview table tr th{
+	background-color:#ffc600;
+	font-weight:bold;
+}
+.report-table-preview table tr.total-row td,
+.report-table-preview table tr td.alternate.company,
+.report-table-preview table tr td.alternate.operator,
+.report-table-preview table tr td.alternate.fdollar-column,
+.report-table-preview table tr th.alternate{
+	background-color:#C9FB93;
+}
+
+.report-table-preview table tr td.standard,
+.report-table-preview table tr th.standard{
+	background-color:#DBF9BB;
+	font-weight:bold;
+}
+
+.report-table-preview table tr td.company-1{
+	background-color:#FBDE7A;
+	font-weight:bold;
+}
+
+.report-table-preview-exploration table tr, .report-table-preview-exploration table tr th, .report-table-preview-exploration table tr td, .report-table-preview table tr, .report-table-preview table tr th, .report-table-preview table tr td {
+    border: 1px solid #000;
+}
+
+.portrait-only{ 
+	display:none;
+}
+.app-header{
+	margin-top:0px; line-height: 40px;
+}
+/* Portrait */
+@media only screen 
+  and (max-width: 360px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+	.report-table-preview  table > thead > tr > th, .report-table-preview  table > tbody > tr > td{
+		font-size:0.7em;
+		padding:3px;
+	}
+	.landscape-only{ 
+		display:none;
+	}
+	.portrait-only{ 
+		display:block;
+	}
+.app-header{
+	margin-top:20px; line-height: 46px;
+}
+}
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+	.report-table-preview  table > thead > tr > th, .report-table-preview  table > tbody > tr > td{
+		font-size:0.8em;
+		padding:4px;
+	}
+	.landscape-only{ 
+		display:none;
+	}
+	.portrait-only{ 
+		display:block;
+	}
+.app-header{
+	margin-top:20px; line-height: 46px;
+}
+}

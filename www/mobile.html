@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<!-- 
+Server API Key help
+AIzaSyDDVF5hMkQgqfOEi52KTe6FTFWcyi38YmU
+Sender ID help
+991696709191
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+  <meta charset="utf-8" />
+  <title>Kwaala - Ba Wahala</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="" name="description" />
+  <meta content="" name="author" />
+  <meta name="MobileOptimized" content="320">
+  <!-- BEGIN GLOBAL MANDATORY STYLES -->          
+  <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+  <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+  <link href="assets/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+  <!-- END GLOBAL MANDATORY STYLES -->
+  <!-- BEGIN THEME STYLES --> 
+  <link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css"/>
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+  <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+  <link href="assets/css/plugins.css" rel="stylesheet" type="text/css"/>
+  <link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+  
+  <link href="assets/plugins/select2/select2_metro.css" rel="stylesheet" type="text/css" />
+  <link href="assets/plugins/bootstrap-datepicker/css/datepicker.css" rel="stylesheet" type="text/css" />
+  
+  <link href="assets/css/pages/lock.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/custom.css" rel="stylesheet" type="text/css"/>
+  
+  <link href="assets/css/print.css" rel="stylesheet" type="text/css" id="print-css" media="print">
+  
+  <!-- END THEME STYLES -->
+  <link rel="shortcut icon" href="favicon.ico" />
+  
+  <style type="text/css">
+	.hide-in-mobile,
+	.mobile-main-view,
+	.print-report-popup{
+		display:none;
+	}
+  </style>
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body style="overflow-y:auto !important; overflow-x:hidden;">
+   <div id="generate-report-progress-bar">
+    
+    </div>
+	<div id="notification-container" style="min-width:90%; max-width:400px; right:5%;">
+
+    </div>
+  <div class="page-lock" >
+	<div style="text-align:center; z-index:1000; background: #333; position:fixed; top:0; width:100%; color: #fff; font-size: 12px;  font-weight: bold;">
+		<div class="app-header">
+		<div class="pull-left"><a href="" class="btn btn-lg dark" title="Home"> <i class="icon-home"></i></a></div><span id="active-menu-text">Kwaala</span><div class="pull-right"><button class="btn btn-lg dark" title="Show Settings" onclick="$.fn.pHost.showMobileSettingsView();"> <i class="icon-cogs"></i></button></div>
+		</div>
+		
+		<div class="portrait-only" style="color: #fff; width:auto; padding:0; line-height: 26px;  font-size: 12px;  font-weight: bold;">
+		<div style="text-align:center;">
+			<span id="current-store-container">
+			  <select class="form-control">
+				
+			  </select>
+		  </span>
+		</div>
+	  </div>
+	</div>
+  
+  <div class=" landscape-only">
+	<div class="" style="text-align:center; margin-top:45px;">
+	</div>
+  </div>
+  <div class="portrait-only">
+	<div class="" style="text-align:center; margin-top:100px;">
+	</div>
+  </div>
+  
+	<div class="page-body" id="dash-board-main-content-area">
+      
+      <div>
+		
+      </div>
+      <!-- ./row -->
+	  	  
+	  <div class="row" >
+		<div class="col-md-3 col-sm-4 col-xs-12">
+		   
+		   <a href="#" class="custom-action-button action-button btn-block dashboard-stat blue btn center-align" function-name="display_sales_report" function-class="mobile_app" function-id="Sales Report">
+			  <div class="details-1">
+				SALES REPORT
+			  </div>
+			  <span class="more">
+			  Daily, This Week, This Month, This Year
+			  </span>
+		   </a>
+		</div>
+		<div class="col-md-3 col-sm-4 col-xs-12">
+		   
+		   <a href="#" class="custom-action-button action-button btn-block dashboard-stat purple btn center-align" function-name="display_expenditure_report" function-class="mobile_app" function-id="Expenditure Report">
+			  <div class="details-1">
+				EXPENSES REPORT
+			  </div>
+			  <span class="more">
+			  Periodic Expenditure
+			  </span>
+		   </a>
+		   
+		</div>
+		<div class="col-md-3 col-sm-4 col-xs-12">
+		   <a href="#" class="custom-action-button action-button btn-block dashboard-stat red btn center-align" function-name="display_inventory_report" function-class="mobile_app" function-id="Stock Report">
+			  <div class="details-1">
+				STOCK REPORT
+			  </div>
+			  <span class="more">
+			  Low Stock Level, Items Supply History
+			  </span>
+		   </a>
+		</div>
+		<div class="col-md-3 col-sm-4 col-xs-12">
+		   
+		   <a href="#" class="custom-action-button action-button btn-block dashboard-stat purple btn center-align" function-name="display_income_vs_expenditure" function-class="mobile_app" function-id="Income vs. Expense">
+			  <div class="details-1">
+				INCOME vs EXPENSES
+			  </div>
+			  <span class="more">
+			  Tabular & Graphical Views
+			  </span>
+		   </a>
+		   
+		</div>
+	 </div>
+	  <!-- ./row -->
+			
+    </div>
+	
+	<div class="page-footer" style="display:none;">
+      <span id="connection" class="pull-left">Connecting...<div></div></span> <div class="b-level pull-left"></div>
+    </div>
+  </div>
+  <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+  <!-- BEGIN CORE PLUGINS -->   
+  <!--[if lt IE 9]>
+  <script src="assets/plugins/respond.min.js"></script>
+  <script src="assets/plugins/excanvas.min.js"></script> 
+  <![endif]-->   
+  <script src="assets/plugins/jquery-1.10.2.min.js" type="text/javascript"></script>
+  <script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>    
+  <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript" ></script>
+  <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+  <script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>  
+  <script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
+  <script src="assets/plugins/uniform/jquery.uniform.min.js" type="text/javascript" ></script>
+  
+  <script src="assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" type="text/javascript" ></script>
+  <script src="assets/plugins/select2/select2.min.js" type="text/javascript" ></script>
+  
+  <!-- END CORE PLUGINS -->
+  <!-- BEGIN PAGE LEVEL PLUGINS -->
+  <script src="assets/plugins/backstretch/jquery.backstretch.min.js" type="text/javascript"></script>
+  <!-- END PAGE LEVEL PLUGINS -->   
+  <script src="assets/scripts/app.js"></script>  
+  <script src="assets/scripts/lock.js"></script>
+
+    <script src="assets/app/amplify.min.js"></script>
+    <script src="assets/app/dexie.min.js"></script>
+    <script src="assets/app/md5.js"></script>
+    <script src="assets/app/fileuploader.js"></script>
+    <script src="assets/app/fastclick.js"></script>
+    <script src="assets/app/jquery.tinysort.min.js"></script>
+    
+	<script src="assets/app/highstock.js"></script>
+	<script src="assets/app/nw.highcharts.js"></script>
+    
+    <script src="assets/app/custom.plugin.js" type="text/javascript"></script>
+    <script src="assets/app/processing-script.js" type="text/javascript"></script>
+	<script src="assets/app/mobile-app.js" type="text/javascript"></script>
+    <!--
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="PushNotification.js"></script>
+    -->
+    <script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="PushNotification.js"></script>
+   <script>
+   var app = {
+		// Application Constructor
+		initialize: function() {
+			this.bindEvents();
+		},
+		// Bind Event Listeners
+		//
+		// Bind any events that are required on startup. Common events are:
+		// 'load', 'deviceready', 'offline', and 'online'.
+		bindEvents: function() {
+			document.addEventListener('deviceready', this.onDeviceReady, false);
+		},
+		// deviceready Event Handler
+		//
+		// The scope of 'this' is the event. In order to call the 'receivedEvent'
+		// function, we must explicitly call 'app.receivedEvent(...);'
+		onDeviceReady: function() {
+			console.log('Received Device Ready Event');
+			console.log('calling setup push');
+			app.setupPush();
+			
+			jQuery(document).ready(function() { 
+				Lock.init();       
+			   $.fn.pHost.getStores();
+			   $.fn.cProcessForm.activateAjaxRequestButton();
+			});
+		},
+		setupPush: function() {
+			console.log('calling push init');
+			var push = PushNotification.init({
+				"android": {
+					"senderID": "991696709191"
+				},
+				"ios": {
+					"sound": true,
+					"vibration": true,
+					"badge": true
+				},
+				"windows": {}
+			});
+			console.log('after init');
+
+			push.on('registration', function(data) {
+				console.log('registration event: ' + data.registrationId);
+
+				var oldRegId = localStorage.getItem('registrationId');
+				if (oldRegId !== data.registrationId) {
+					// Save new registration ID
+					localStorage.setItem('registrationId', data.registrationId);
+					// Post registrationId to your app server as the value has changed
+				}
+			});
+
+			push.on('error', function(e) {
+				console.log("push error = " + e.message);
+			});
+
+			push.on('notification', function(data) {
+				console.log('notification event');
+				navigator.notification.alert(
+					data.message,         // message
+					null,                 // callback
+					data.title,           // title
+					'Ok'                  // buttonName
+				);
+		   });
+		}
+	};
+	app.initialize();
+   </script>
+   
+  <!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>
