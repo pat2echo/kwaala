@@ -2,7 +2,7 @@
 <widget id="com.phonegap.kwaala" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Kwaala</name>
     <description>
-        Kwaala helps you manage your business operations & keeps you connected to your transactions no matter where you are
+        Kwaala helps you manage your business operations and keeps you connected to your transactions no matter where you are
     </description>
     <author email="support@maybeachtech.com" href="http://maybeachtech.com">
         Maybeach Technologies Limited
